@@ -1,0 +1,8 @@
+MX6REXTINY BOARD
+M:	Name <support@voipac.com>
+S:	Maintained
+F:	board/fedevel/mx6rex_tiny/
+F:	include/configs/mx6rex_tiny.h
+F:	configs/mx6srextiny_defconfig
+F:	configs/mx6dlrextiny_defconfig
+F:	configs/mx6qrextiny_defconfig
