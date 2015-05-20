@@ -204,12 +204,12 @@
 #define CONFIG_ENV_DEFAULT_FDT_FILE	"imx6dl-rexlite.dtb"
 #elif defined(CONFIG_MX6S)
 #define CONFIG_ENV_DEFAULT_FDT_FILE	"imx6dl-rexlite.dtb"
+#endif
 #define CONFIG_ENV_DEFAULT_ETH_ADDR     "00:0D:15:00:D1:75"
 #define CONFIG_ENV_DEFAULT_CLIENT_IP    "192.168.0.150"
 #define CONFIG_ENV_DEFAULT_SERVER_IP    "192.168.0.1"
 #define CONFIG_ENV_DEFAULT_NETMASK      "255.255.255.0"
 #define CONFIG_ENV_DEFAULT_UPD_FILE     "imx6/u-boot-rex-tiny.imx"
-#endif
 
 #define CONFIG_EXTRA_ENV_SETTINGS \
 	"script=boot.scr\0" \
